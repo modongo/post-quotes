@@ -19,27 +19,19 @@
         <label for="name">Author Name</label>
         <input type="text" required class="form-control" id="author" placeholder="Please enter name of quote author"
           [(ngModel)]="newQuote.author" name="author" #author="ngModel">
-        <!-- <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-          <p> Quote Author is Required</p>
 
-        </div> -->
       </div>
       <div class="form-group">
 
         <label for="description">Quote</label>
         <textarea class="form-control" id="myQuote" rows="4" [(ngModel)]="newQuote.myquote" name="myQuote"
           #myQuote="ngModel" placeholder="Please enter your quote" required></textarea>
-        <!-- <div [hidden]="myQuote.valid || myQuote.pristine" class="alert alert-danger">
-          <p> Quote is Required</p>
 
-        </div> -->
       </div>
       <div class="form-group">
         <label for="complete">Date:</label>
         <input type='date' id="complete" [(ngModel)]="newQuote.postdate" name="postDate" #postDate="ngModel" required>
-        <!-- <div [hidden]="postDate.valid || postDate.pristine" class="alert alert-danger">
-          <p> Complete Date is Required</p>
-        </div> -->
+
       </div>
       <button type="submit" class="btn btn-success">Submit Your Quote</button>
 
