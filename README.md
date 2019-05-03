@@ -1,3 +1,13 @@
+## Behaviour Driven Development
+
+| Behaviour | Input | Output |
+| --------- | ------| ------ |
+| Create new quote | Name, Quote, Author, Date| Displays quote, name, author, days passed and more details|
+| Upvote | Click `more details` then click `upvote` button | Increased number of upvotes|
+| Downvote |Click `more details` then click `downvote` button |  Increased number of downvotes|
+| Delete a quote | Click `more details` then click `delete quote`| Quote is deleted |
+
+
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
